@@ -1,0 +1,39 @@
+*{
+    background-color: rgb(125, 43, 202);
+    padding: 1px;
+    
+}
+.square{
+    width: 200px;
+    height: 50x;
+    background-color: white;
+    box-shadow: 10px 10px rgb(170, 111, 193);
+    border-radius: 30px;
+    border: 1px solid;
+}
+.square:hover{
+    background-color: rgb(223, 134, 211);
+    transition: background-color 5s linear;
+    transition: width 4s linear;
+    transition: height 4s linear;
+    transition: ease-in ;
+} 
+
+.blacks{
+    width: 100px;
+    height: 50x;
+    background-color: black;
+    box-shadow: 10px 10px rgb(170, 111, 193);
+    margin: -10px;
+   border-radius: 10px;
+   float: left;
+   box-shadow: rgb(249, 249, 249);
+}
+.blacks:hover{
+    background-color: rgb(223, 134, 211);
+    transition: background-color 5s linear;
+    transition: width 4s linear;
+    transition: height 4s linear;
+    transition: ease-in ;
+}
+
