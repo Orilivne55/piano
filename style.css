@@ -11,12 +11,13 @@
     border-radius: 30px;
     border: 1px solid;
 }
-.square:hover{
-    background-color: rgb(223, 134, 211);
-    transition: background-color 5s linear;
-    transition: width 4s linear;
-    transition: height 4s linear;
+div:hover{
+    background-color: black;
+    transition: background-color 0s linear;
+    transition: width 0s linear;
+    transition: height 0s linear;
     transition: ease-in ;
+
 } 
 
 .blacks{
@@ -31,9 +32,20 @@
 }
 .blacks:hover{
     background-color: rgb(223, 134, 211);
-    transition: background-color 5s linear;
-    transition: width 4s linear;
-    transition: height 4s linear;
+    transition: background-color 0s linear;
+    transition: width 0s linear;
+    transition: height 0s linear;
     transition: ease-in ;
 }
+.letters{
+ color: rgb(174, 19, 174);
+ float: right;
+ margin-right: -30px;
+ 
+}
+section:hover{
+    color: black;
+}
+
+
 
