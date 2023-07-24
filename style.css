@@ -1,6 +1,6 @@
 *{
     background-color: rgb(125, 43, 202);
-    padding: 1px;
+    
     
 }
 .square{
@@ -10,15 +10,18 @@
     box-shadow: 10px 10px rgb(170, 111, 193);
     border-radius: 30px;
     border: 1px solid;
+    padding: 1px;
+
+
+    
 }
 div:hover{
     background-color: black;
-    transition: background-color 0s linear;
-    transition: width 0s linear;
-    transition: height 0s linear;
-    transition: ease-in ;
-
+    color: rgb(242, 242, 244);
 } 
+div{
+    color: rgb(125, 43, 202);
+}
 
 .blacks{
     width: 100px;
@@ -29,23 +32,24 @@ div:hover{
    border-radius: 10px;
    float: left;
    box-shadow: rgb(249, 249, 249);
+     
+
 }
 .blacks:hover{
     background-color: rgb(223, 134, 211);
-    transition: background-color 0s linear;
-    transition: width 0s linear;
-    transition: height 0s linear;
-    transition: ease-in ;
+    
 }
+
+
+.letters:hover{
+  background-color:black; 
+}
+
+.square:hover{
+    background-color: black;
+}
+
 .letters{
- color: rgb(174, 19, 174);
- float: right;
- margin-right: -30px;
- 
+    float: right;
+    margin: -30px;
 }
-section:hover{
-    color: black;
-}
-
-
-
